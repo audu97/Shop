@@ -65,6 +65,7 @@ class LoginScreenViewModel: ViewModel() {
 
         FirebaseFirestore.getInstance().collection("users")
             .add(user)
+
     }
 
 

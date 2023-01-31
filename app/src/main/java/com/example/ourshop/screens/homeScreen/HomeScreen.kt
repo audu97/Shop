@@ -1,4 +1,4 @@
-package com.example.ourshop.screens
+package com.example.ourshop.screens.homeScreen
 
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable

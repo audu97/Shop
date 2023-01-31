@@ -1,7 +1,7 @@
 package com.example.ourshop.screens.login
 
 
-
+/*
 data class LoadingState(val status: Status, val message: String? = null){
 
     companion object{
@@ -18,3 +18,5 @@ data class LoadingState(val status: Status, val message: String? = null){
     IDLE
     }
 }
+
+ */

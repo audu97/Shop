@@ -115,7 +115,8 @@ fun UserForm(
                 onDone(email.value.trim(),password.value.trim())
             }
         )
-        SubmitButton(textId = if (isCreateAccount)"Create Account" else "login",
+        SubmitButton(
+            textId = if (isCreateAccount)"Create Account" else "login",
             loading = loading,
             validInputs = valid
         ) {
@@ -134,7 +135,7 @@ fun SubmitButton(
     onClick:() -> Unit
 ) {
     Button(
-        onClick = { /*TODO*/ },
+        onClick = onClick,
         modifier = Modifier
             .padding(3.dp)
             .fillMaxWidth(),
